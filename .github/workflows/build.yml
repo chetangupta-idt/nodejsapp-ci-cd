@@ -25,4 +25,4 @@ jobs:
            run: npm ci
 
          - name: Build Project
-           run: npm run build && echo 'Build successful'
+           run: npm run start && echo 'Build successful'

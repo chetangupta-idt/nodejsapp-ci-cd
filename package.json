@@ -4,7 +4,7 @@
   "description": "Sample NodeJs app to deploy via Github Action",
   "main": "index.js",
   "scripts": {
-    "build": "node src/index.js"
+    "start": "node src"
   },
   "author": "Chetan Gupta",
   "license": "ISC",

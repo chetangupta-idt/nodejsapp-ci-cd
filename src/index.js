@@ -3,13 +3,13 @@ const api = require('./app')
 
 const app = expres();
 
-const port = 9090;
+const port = process.env.PORT || 3000;
 
 app.use(expres.json());
 
 app.use('/', api);
 
-app.listen(port, async()=>{
+app.listen(port, ()=>{
     try {
         console.log(`server started at http://localhost:${port}`);
     } catch (error) {
