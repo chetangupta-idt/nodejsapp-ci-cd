@@ -1,0 +1,14 @@
+{
+  "name": "node-app",
+  "version": "0.1.0",
+  "description": "Sample NodeJs app to deploy via Github Action",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "author": "Chetan Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
