@@ -3,7 +3,7 @@ const api = require('./app')
 
 const app = expres();
 
-const port = 80;
+const port = 9090;
 
 app.use(expres.json());
 
