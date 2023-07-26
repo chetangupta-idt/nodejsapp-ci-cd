@@ -26,3 +26,12 @@ jobs:
 
          - name: Test the project state
            run: npm run test && echo 'app good to be deployed'
+
+    deploy:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: Deploying the code
+              run: |
+                echo "Deploying the app"
+        
